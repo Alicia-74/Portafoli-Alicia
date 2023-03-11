@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="description" content="Formulario">
+        <meta name="keywords" content="nombre,apellido,telefonos">
+        <meta name="language" content="ES">
+        <meta name="author" content="alicia.hernandez@a.vedrunasevillasj.es">
+        <meta name="robots" content="index,follow">
+        <meta name="revised" content="Monday, October 24th, 2022, 20:32">
+        <meta name="viewport" content="width=device-width, inicial scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="chromel">
+        <meta http-equiv="reffresh" content="300, URL=index.html"/>
+
+        <title>Formulario HTM</title>
+
+      
+
+    </head>
+    <body>
+        <form method="post">
+
+            <h3><b>Haz tu reserva</b></h3>
+
+            <p>
+                <label for="Nombre">Nombre
+                <input type="text" id="Nombre" name="Nombre" required/>
+            </p> 
+
+            <p>
+                <label for="correo">Correo
+                <input type="email" id=“correo” name=“correo” required>
+            </p>
+
+            <p>
+                <label for="teléfono">Telefono
+                <input type="tel" id=“telefono” name=“telefono” required>
+            </p>
+
+            <p>
+                <label for="fecha de reserva">Fecha de reserva
+                <input type="date" id=“Fecha” name=“Fecha” required>
+            </p>
+
+            <p>
+                <label for="Franja horaria">Franja horaria
+                <select name="Hora" id="Hora"> required>
+                        <option value="12:30-13:00">12:30-13:00</option>
+                        <option value="13:00-13:30">13:00-13:30</option>
+                        <option value="13:30-14:00">13:30-14:00</option>
+                        <option value="14:00-14:30">14:00-14:30</option>
+                        <option value="14:30-15:00">14:30-15:00</option>
+                        <option value="15:00-15:30">15:00-15:30</option>
+                        <option value="15:30-16:00">15:30-16:00</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="Comensales(min 1, max 10)">Comensales(min 1, max 10)
+                <input type="number" id=“Comensales” name=“Comensales” required>
+            </p>
+
+            <p>
+                <label for="Color Mantel">Color Mantel
+                <input type="color" id=“Color” name=“Color” required>
+            </p>
+
+            <p>
+                <label for="Demandas Especiales">Demandas Especiales
+            </p>
+
+            <p>
+                <textarea  id=“Demandas” name=“Demandas” rows="2" cols="20" required placeholder="alergias, trona,..." ></textarea>
+            </p>
+
+           
+            <input type="submit">
+
+        </form>
+    </body>
+</html> 
