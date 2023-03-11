@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta name="description" content="calculadora">
+        <meta name="keywords" content="4,5">
+        <meta name="language" content="ES">
+        <meta name="author" content="alicia.hernandez@a.vedrunasevillasj.es">
+        <meta name="robots" content="index,follow">
+        <meta name="revised" content="Friday, December 30, 2022, 15:15">
+        <meta name="viewport" content="width=device-width, inicial scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="chromel">
+        <meta http-equiv="reffresh" content="300, URL=index.html"/>
+        <meta charset="UTF-8">
+
+        <title>Calculadora</title>
+        
+        <link href="estilo.css" rel="stylesheet" type="text/css">
+        
+
+    </head>
+
+    <body>
+
+        <div class="contenedor">
+
+            <div id="calculator">
+
+              <p id="ans"></p>  
+
+                <section>
+                    <button onclick="document.querySelector('#ans').innerHTML += '(' ">(</button>
+                    <button onclick="document.querySelector('#ans').innerHTML += ')' ";>)</button>
+                    <button onclick="document.querySelector('#ans').innerHTML = '' " id="c">C</button>
+                    <button onclick="document.querySelector('#ans').innerHTML += '/' ">/</button>
+                </section>
+
+                <section>
+                    <button onclick="document.querySelector('#ans').innerHTML += '7' ">7</button>
+                    <button onclick="document.querySelector('#ans').innerHTML += '8' ">8</button>
+                    <button onclick="document.querySelector('#ans').innerHTML += '9' ">9</button>
+                    <button onclick="document.querySelector('#ans').innerHTML += '*' ">*</button>
+                </section>
+
+                <section>
+                    <button onclick="document.querySelector('#ans').innerHTML += '4' ">4</button>
+                    <button onclick="document.querySelector('#ans').innerHTML += '5' ">5</button>
+                    <button onclick="document.querySelector('#ans').innerHTML += '6' ">6</button>
+                    <button onclick="document.querySelector('#ans').innerHTML += '-' ">-</button>
+                </section>
+
+                <section>
+                    <button onclick="document.querySelector('#ans').innerHTML += '1' ">1</button>
+                    <button onclick="document.querySelector('#ans').innerHTML += '2' ">2</button>
+                    <button onclick="document.querySelector('#ans').innerHTML += '3' ">3</button>
+                    <button onclick="document.querySelector('#ans').innerHTML += '+' ">+</button>
+                </section>
+
+                <section>
+                    <button onclick="document.querySelector('#ans').innerHTML += '%' ">%</button>
+                    <button onclick="document.querySelector('#ans').innerHTML += '0' ">0</button>
+                    <button onclick="document.querySelector('#ans').innerHTML += '.' ">.</button>
+                    <button onclick="document.querySelector('#ans').innerHTML = eval(document.querySelector('#ans').innerHTML)" id="igual">=</button>
+                </section>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>    
