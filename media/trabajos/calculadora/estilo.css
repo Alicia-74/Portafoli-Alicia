@@ -1,0 +1,106 @@
+
+/**/
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    background-color: rgb(215, 250, 246);
+}
+
+.contenedor{
+    min-height: 55vh;
+    width: 20vw;
+    border-radius: 10px;
+    
+    
+
+    background-color: rgb(162, 74, 244);
+
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#calculator{
+    border: 1px solid black;
+    box-shadow: 2px 5px 1px 1px black;
+
+    align-items: center;
+    padding-bottom: 7%;
+    border-radius: 10px;
+
+}
+
+
+section{
+    border: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+button{
+    width: 4vw;
+    height: 8vh;
+    margin: 2px;
+
+    box-shadow: 2px 2px 2px 1px black;
+
+    border-radius: 6%;
+
+    border: 1px solid rgb(99, 99, 99);
+
+    font-size: 20px;
+}
+
+button:hover{
+    box-shadow: 0px 0px 0px 0px black;
+}
+
+
+#c{
+    background-color: rgb(242, 157, 157);
+}
+#c:hover{
+    background-color: rgb(237, 129, 129);
+}
+
+
+#igual{
+    background-color: rgb(161, 161, 255);
+}
+#igual:hover{
+    background-color: rgb(132, 132, 252);
+}
+
+
+
+
+
+button:hover{
+    background-color: rgb(208, 208, 208);
+}
+
+
+
+/*pantalla*/
+
+#ans{
+    background-color: white;
+    border: 2px solid rgb(42, 42, 42);
+    border-radius: 10px;
+    height: 35px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 10%;
+    margin-bottom: 12%;
+
+    font-size: 30px;
+    box-shadow: 1px 0px 1px 1px black;
+
+}
+
